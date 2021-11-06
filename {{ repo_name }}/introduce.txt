@@ -1,0 +1,9 @@
+Hi, my name is {{ name }}
+
+I'm {{ age }} years old
+
+My hobby is {{ hobby | join(sep = "," )}}
+
+{% if is_geek %}
+And I am a geek.
+{% endif %}
