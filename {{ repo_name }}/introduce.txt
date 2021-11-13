@@ -8,4 +8,4 @@ My hobby is {{ hobby | join(sep = "," )}}
 And I am a geek.
 {% endif %}
 
-Lucky today !!!
+Lucky today !!
