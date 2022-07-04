@@ -1,0 +1,21 @@
+[[prompts]]
+name = "name"
+prompts = "what's your name"
+type = "string"
+
+[[prompts]]
+name = "age"
+choices = [10, 20, 30]
+default = 20
+type = "number"
+
+[[prompts]]
+name = "hobby"
+choices = ["running", "swimming"]
+multi = true
+type = "string"
+
+[[prompts]]
+name = "is_geek"
+type = "bool"
+default = true
