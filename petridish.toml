@@ -1,3 +1,8 @@
+[petridish]
+project_prompt = "project name?"
+project_var_name = "project_name"
+short_description = "This is an awesome template"
+
 [[prompts]]
 name = "name"
 prompts = "what's your name"
